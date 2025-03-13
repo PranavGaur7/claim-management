@@ -106,12 +106,10 @@ claims-management-platform/
 │   └── server.ts     # Express server
 ├── frontend/
 │   ├── public/       # Static assets
-│   ├── src/
-│   │   ├── components/ # Reusable UI components
-│   │   ├── pages/      # Route components
-│   │   ├── context/    # Auth context
-│   │   └── services/   # API services
-├── screenshots/      # Application previews
+│   └── src/
+│       ├── components/ # Reusable UI components
+│       ├── pages/      # Route components
+│       └──  context/    # Auth context
 └── README.md
 ```
 
