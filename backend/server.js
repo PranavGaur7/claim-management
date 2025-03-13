@@ -22,7 +22,7 @@ mongoose.connect(process.env.MONGODB_URI)
     .catch(err => console.error('MongoDB connection error:', err));
 
 // Routes
-app.get('/', (req, res, next) => {
+app.get('/', (req, res) => {
     res.status(200).json({
         message: 'bad request'
     })
