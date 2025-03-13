@@ -43,19 +43,13 @@ A full-stack web application for managing insurance claims, featuring separate i
 
 ### Installation
 
-1. **Clone Repository**
-   ```sh
-   git clone https://github.com/yourusername/claims-management-platform.git
-   cd claims-management-platform
-   ```
-
-2. **Backend Setup**
+1. **Backend Setup**
    ```sh
    cd backend
    npm install
    ```
 
-3. **Frontend Setup**
+2. **Frontend Setup**
    ```sh
    cd ../frontend
    npm install
