@@ -51,7 +51,7 @@ A full-stack web application for managing insurance claims, featuring separate i
 
 2. **Frontend Setup**
    ```sh
-   cd ../frontend
+   cd .frontend
    npm install
    ```
 
