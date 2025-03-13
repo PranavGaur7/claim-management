@@ -1,8 +1,6 @@
-![image](https://github.com/user-attachments/assets/5b529fde-fd2b-4c33-802b-02dfcdd6d3e6)# Claims Management Platform
+# Claims Management Platform
 
 A full-stack web application for managing insurance claims, featuring separate interfaces for patients and insurers.
-
-![Platform Preview](screenshots/dashboard-preview.png) 
 
 ## Features
 
