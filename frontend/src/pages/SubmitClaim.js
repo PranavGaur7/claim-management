@@ -47,7 +47,7 @@ const SubmitClaim = () => {
         formDataToSend.append('document', document);
 
         try {
-            await axios.post('http://localhost:5000/api/claims', formDataToSend, {
+            await axios.post('https://claim-management-lmev.onrender.com/api/claims', formDataToSend, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }

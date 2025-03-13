@@ -13,7 +13,7 @@ const PatientDashboard = () => {
     useEffect(() => {
         const fetchClaims = async () => {
             try {
-                const res = await axios.get('http://localhost:5000/api/claims/my-claims');
+                const res = await axios.get('https://claim-management-lmev.onrender.com/api/claims/my-claims');
                 setClaims(res.data);
             } catch (err) {
                 setError('Failed to fetch claims');

@@ -22,7 +22,7 @@ const InsurerDashboard = () => {
     const fetchClaims = useCallback(async () => {
         setLoading(true);
         try {
-            let url = 'http://localhost:5000/api/claims/all';
+            let url = 'https://claim-management-lmev.onrender.com/api/claims/all';
 
             // Add query parameters for filters
             const params = new URLSearchParams();
