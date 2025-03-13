@@ -22,6 +22,11 @@ mongoose.connect(process.env.MONGODB_URI)
     .catch(err => console.error('MongoDB connection error:', err));
 
 // Routes
+app.get('/', (req, res, next) => {
+    res.status(200).json({
+        message: 'bad request'
+    })
+})
 app.use('/api/auth', authRoutes);
 app.use('/api/claims', claimRoutes);
 
